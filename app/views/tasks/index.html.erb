@@ -1,0 +1,14 @@
+<h1>ブログ一覧</h1>
+<table>
+  <tr>
+    <th>タイトル</th>
+    <th>内容</th>
+  </tr>
+<% @tasks.each do |task| %>
+  <tr>
+    <td><%= task.title %></td>
+    <td><%= task.importance %></td>
+    <td><%= task.deadline %></td>
+  </tr>
+<% end %>
+</table>
