@@ -67,3 +67,6 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 gem 'devise'
 #ログイン
+
+gem 'devise-i18n'
+#日本語翻訳
